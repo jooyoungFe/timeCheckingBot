@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    // 경로
+    "rootDir": "src",
+    "outDir": "dist",
+
+    // 실행 환경
+    "module": "commonjs",
+    "target": "es2022",
+    "types": [],
+    // 빌드 출력
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+
+    // 타입 검사
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+
+    "strict": true,
+    "jsx": "react-jsx",
+    "verbatimModuleSyntax": false,
+    "isolatedModules": true,
+    "noUncheckedSideEffectImports": true,
+    "moduleDetection": "force",
+    "skipLibCheck": true,
+
+    "esModuleInterop": true,
+  }
+}
